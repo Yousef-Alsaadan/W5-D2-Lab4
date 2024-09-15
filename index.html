@@ -1,0 +1,20 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>W5-D2-Lab4</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Change size the Box:</h1>
+    <input type="number" id="width" placeholder="Enter width (%)" required />
+    <input type="number" id="length" placeholder="Enter length (%)" required />
+    <input type="number" id="border" placeholder="Enter border curvature (%)" required />
+    <label for="color">choose color</label>
+    <input type="color" id="color" placeholder="choose color" required />
+    <button type="submit" id="submit" onclick="changeBox()">submit</button>
+    <button type="submit" id="resert" onclick="resert()">resert</button>
+    <div class="box"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
